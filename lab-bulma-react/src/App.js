@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar.js';
 import FormField from './components/FormField.js';
 import CoolButton from './components/CoolButton.js';
+import SignUp from './components/SignUp.js';
 
 import './App.css';
 
@@ -20,6 +21,9 @@ function App() {
             <CoolButton className="button is-small is-success" value="Button 2" />
           </div>
         </div>
+      </section>
+      <section className="section">
+        <SignUp />
       </section>
     </div>
   );
