@@ -1,24 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class FormField extends Component {
   render() {
     return (
-      <div>
-        <div class="field">
-          <label class="label">Name</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="e.g Alex Smith"></input>
-          </div>
-        </div>
-        <div class="field">
-          <label class="label">Email</label>
-          <div class="control">
-            <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com"></input>
-          </div>
+      <div class="field">
+        <label class="label">{this.props.label}</label>
+        <div class="control">
+          <input class="input" type={this.props.type} placeholder={this.props.placeholder}></input>
         </div>
       </div>
     )
   }
 }
 
-export default FormField;
+export default FormField
