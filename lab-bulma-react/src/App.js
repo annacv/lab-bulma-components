@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <Navbar />
       <FormField />
-      <CoolButton />
+      <CoolButton className="button is-rounded my-class is-danger is-small" value="Button 1" />
+      <CoolButton className="button is-small is-success" value="Button 2" />
     </div>
   );
 }
