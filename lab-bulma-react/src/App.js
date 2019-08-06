@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.js';
 import FormField from './components/FormField.js';
 import CoolButton from './components/CoolButton.js';
 import SignUp from './components/SignUp.js';
+import Message from './components/Message.js'
 
 import './App.css';
 
@@ -24,6 +25,11 @@ function App() {
       </section>
       <section className="section">
         <SignUp />
+      </section>
+      <section className="section">
+        <div className="container">
+          <Message className="message is-info" title="Hello World"  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. " highlighted="Pellentesque risus mi"/>
+        </div>
       </section>
     </div>
   );
