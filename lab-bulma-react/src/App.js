@@ -17,7 +17,7 @@ function App() {
             <FormField label="Email" type="email" placeholder="e.g alexsmith@gmail.com" />
           </div>
           <div className="column is-two-fifths is-offset-one-quarter-desktop">
-            <CoolButton className="button is-rounded my-class is-danger is-small" value="Button 1" />
+            <CoolButton className="button is-rounded is-danger is-small" value="Button 1" />
             <CoolButton className="button is-small is-success" value="Button 2" />
           </div>
         </div>
