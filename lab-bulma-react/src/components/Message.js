@@ -6,7 +6,7 @@ class Message extends Component {
       <article className={this.props.className}>
         <div className="message-header">
           <p>{this.props.title}</p>
-          <button class="delete" aria-label="delete"></button>
+          <button className="delete" aria-label="delete"></button>
         </div>
         <div className="message-body">
           {this.props.text}
