@@ -23,12 +23,10 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="section">
-        <SignUp />
-      </section>
+      <SignUp />
       <section className="section">
         <div className="container">
-          <Message className="message is-info" title="Hello World"  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. " highlighted="Pellentesque risus mi"/>
+          <Message className="message is-info" title="Hello World" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. " highlighted="Pellentesque risus mi" />
         </div>
       </section>
     </div>
