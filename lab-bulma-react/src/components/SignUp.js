@@ -9,15 +9,17 @@ class SignUp extends Component {
     return (
       <div>
         <Navbar />
-        <div className="container">
-          <div className="column is-half-tablet is-two-fifths-desktop is-offset-one-quarter-desktop">
-            <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-            <FormField label="Email" type="email" placeholder="e.g alexsmith@gmail.com" />
+        <section className="section">
+          <div className="container">
+            <div className="column is-half-tablet is-two-fifths-desktop is-offset-one-quarter-desktop">
+              <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+              <FormField label="Email" type="email" placeholder="e.g alexsmith@gmail.com" />
+            </div>
+            <div className="column is-two-fifths is-offset-one-quarter-desktop">
+              <CoolButton className="button is-rounded is-small is-dark" value="Submit" />
+            </div>
           </div>
-          <div className="column is-two-fifths is-offset-one-quarter-desktop">
-            <CoolButton className="button is-rounded is-small is-dark" value="Submit" />
-          </div>
-        </div>
+        </section>
       </div>
     )
   }
