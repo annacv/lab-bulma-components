@@ -16,7 +16,7 @@ class SignUp extends Component {
               <FormField label="Email" type="email" placeholder="e.g alexsmith@gmail.com" />
             </div>
             <div className="column is-two-fifths is-offset-one-quarter-desktop">
-              <CoolButton className="button is-rounded is-small is-dark" value="Submit" />
+              <CoolButton isSmall isDark className="is-rounded" children="Submit" />
             </div>
           </div>
         </section>
